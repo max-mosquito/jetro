@@ -1,0 +1,48 @@
+.wrap {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 960px;
+}
+
+.header_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.logo {
+  color: #e8603c;
+  font-family: Bebas;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pale {
+  color: #f3af9d;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav ul li {
+  margin-right: 25px;
+}
+.nav ul li:last-child {
+  margin: 0;
+}
+.nav ul li a {
+  color: #b9b9b9;
+  font-family: Bebas;
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,95 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_pink_side {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  background-color: #f3b29d;
+}
+
+.footer_main {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 960px;
+          flex: 0 0 960px;
+}
+
+.footer_main_wrap {
+  background-color: #e8663c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 35px 30px;
+}
+
+.footer_about {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+.footer_title {
+  padding-bottom: 25px;
+}
+.footer_title h2 {
+  color: #fff;
+  font-family: Bebas;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer_text p,
+.twitter_message_text p,
+.twitter_message_time p,
+.footer_contact_text p,
+.twitter_folow p {
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-bottom: 15px;
+}
+.footer_text p span,
+.twitter_message_text p span,
+.twitter_message_time p span,
+.footer_contact_text p span,
+.twitter_folow p span {
+  color: #f3b29d;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+}
+.footer_text a,
+.twitter_message_text a,
+.twitter_message_time a,
+.footer_contact_text a,
+.twitter_folow a {
+  display: block;
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.footer_twitter {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+.footer_contact {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+.footer_contact_text {
+  padding-bottom: 20px;
+}

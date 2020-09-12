@@ -1,0 +1,180 @@
+@import url("../fonts/BebasNeue/stylesheet.css");
+@import url("../fonts/HelveticaNeue/stylesheet.css");
+@import url("../fonts/Georgia/stylesheet.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
+@import url("../css/aside.css");
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 35px;
+}
+
+.top_pink_side {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  height: 62px;
+  background-color: #f2ae9c;
+}
+
+.contacts_main {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 960px;
+          flex: 0 0 960px;
+  padding: 0 10px;
+}
+
+.contacts_main_title {
+  background-color: #e8603c;
+  padding: 15px 19px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.contacts_main_title h1 {
+  color: #fff;
+  font-family: Bebas;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.contacts_main_content {
+  margin: 0 -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts_main_content_main {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 72%;
+          flex: 0 0 72%;
+  padding: 0 10px;
+  min-width: 0;
+}
+
+.contacts_map {
+  padding-bottom: 35px;
+}
+
+.contacts_main_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.map_detail {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+.map_detail p {
+  color: #414141;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.map_detail_text {
+  padding-bottom: 15px;
+}
+
+.map_detail_addr {
+  padding-bottom: 15px;
+}
+.map_detail_addr h4 {
+  font-size: 12px;
+  line-height: 14px;
+  color: #e8603c;
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+}
+
+.map_form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 69%;
+          flex: 0 0 69%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form input {
+  padding: 11px 13px;
+  width: 216px;
+  border: 1px solid #e8663c;
+  margin-bottom: 12px;
+  color: #e8603c;
+  font-family: Bebas;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+form textarea {
+  width: 100%;
+  height: 204px;
+  border: 1px solid #e8663c;
+  padding: 11px 13px;
+  color: #e8603c;
+  font-family: Bebas;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: Bebas;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  background-color: #e8663c;
+}
