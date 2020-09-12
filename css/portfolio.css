@@ -79,6 +79,9 @@ li {
   font-weight: 400;
   line-height: 24px;
 }
+.nav_filter ul li a:hover {
+  color: red;
+}
 
 .hide {
   display: none;
