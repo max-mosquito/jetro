@@ -46,3 +46,6 @@
   font-size: 16px;
   font-weight: 400;
 }
+.nav ul li a:hover {
+  color: red;
+}
