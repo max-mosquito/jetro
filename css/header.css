@@ -37,6 +37,9 @@
 .nav ul li {
   margin-right: 25px;
 }
+.nav ul li.pactive a {
+  color: #e8603c;
+}
 .nav ul li:last-child {
   margin: 0;
 }
@@ -47,5 +50,5 @@
   font-weight: 400;
 }
 .nav ul li a:hover {
-  color: red;
+  color: #e8603c;
 }
